@@ -17,7 +17,7 @@ git-branch: master
 git-username:
 git-password:
 slack-webhook: CHANGEME
-app-java-version: '11'
+app-java-version: '17'
 app: book-service
 build-cli-version: 0.0.4
 build-project: book-service
