@@ -31,8 +31,8 @@ jobs:
           image_resource:
             type: docker-image
             source:
-              repository: adoptopenjdk
-              tag: ((app-java-version))-jdk-hotspot
+              repository: eclipse-temurin
+              tag: ((app-java-version))-jdk
           inputs:
             - name: source-code
           caches:
